@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDance LA - Presentación</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts de ejemplo para cumplir con las tipografías Sans-serif -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oswald:wght@300;400&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="edance-presentation-container">
+        
+        <!-- Bloque del Logotipo -->
+        <div class="logo-container">
+            <span class="neon-text">E</span>
+            <span class="split-text">DANCE</span>
+            <span class="neon-text">LA</span>
+        </div>
+
+        <!-- Título Principal -->
+        <h1 class="main-title">EDANCE LA</h1>
+
+        <!-- Párrafos Descriptivos -->
+        <div class="description-content">
+            <p>Establecer un nuevo estudio de danza en una ciudad tan competitiva, vibrante y saturada de talento como Los Ángeles, California, representa un reto mayúsculo. EDance nació con la misión de convertirse en un espacio de formación dancística de alto nivel, abierto tanto a talentos emergentes como a bailarines profesionales que buscan perfeccionar su técnica en disciplinas diversas.</p>
+            
+            <p>El desafío principal no consistía en gestionar campañas digitales o redes sociales, sino en construir desde cero una identidad visual sólida, memorable y sofisticada. Necesitábamos un logotipo y una imagen corporativa que transmitieran instantáneamente el dinamismo del movimiento corporal, la disciplina artística y la pasión desbordante que se vive dentro de un estudio de primer nivel en la capital mundial del entretenimiento.</p>
+        </div>
+
+        <!-- Enlace Social -->
+        <div class="social-contact">
+            <!-- Evento onClick simulando el tracking de analytics requerido -->
+            <a href="https://instagram.com/edancelosangeles" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="instagram-link"
+               onclick="gtag('event', 'click_outbound_link', { 'origin': 'edance_la_presentation', 'destination': 'instagram' });">
+                <div class="icon-circle">
+                    <!-- Icono SVG básico de Instagram -->
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </div>
+                <span>@edancelosangeles</span>
+            </a>
+        </div>
+
+    </main>
+</body>
+</html>
