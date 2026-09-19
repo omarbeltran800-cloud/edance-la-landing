@@ -1,0 +1,122 @@
+/* Variables Globales (RN04) */
+:root {
+    --bg-black: #000000;
+    --accent-blue-neon: #2835F2;
+    --text-white: #FFFFFF;
+    
+    /* Fallbacks de tipografías por si falla la carga (Escenario 3) */
+    --font-heavy: 'Montserrat', sans-serif;
+    --font-light-condensed: 'Oswald', sans-serif;
+    --font-medium: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.edance-presentation-container {
+    max-width: 800px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ============================
+   LOGOTIPO SUPERIOR
+============================ */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heavy);
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.neon-text {
+    color: var(--accent-blue-neon);
+    text-shadow: 0 0 10px rgba(40, 53, 242, 0.8),
+                 0 0 20px rgba(40, 53, 242, 0.6),
+                 0 0 30px rgba(40, 53, 242, 0.4);
+}
+
+.split-text {
+    margin: 0 10px;
+    /* Efecto de división horizontal: mitad superior transparente (para ver fondo negro) y mitad inferior blanca */
+    background: linear-gradient(to bottom, transparent 50%, var(--text-white) 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Borde blanco para que la mitad superior se distinga sobre el fondo negro */
+    -webkit-text-stroke: 2px var(--text-white);
+}
+
+/* ============================
+   TÍTULO Y PÁRRAFOS
+============================ */
+.main-title {
+    font-family: var(--font-heavy);
+    color: var(--accent-blue-neon);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+}
+
+.description-content p {
+    font-family: var(--font-light-condensed);
+    color: var(--text-white);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify; /* O 'left' según el ajuste final deseado */
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* ============================
+   ENLACE SOCIAL (INSTAGRAM)
+============================ */
+.social-contact {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--text-white);
+    font-family: var(--font-medium);
+    font-size: 1.2rem;
+    transition: opacity 0.3s ease;
+}
+
+.instagram-link:hover {
+    opacity: 0.8;
+}
+
+.icon-circle {
+    background-color: var(--accent-blue-neon);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-circle svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--text-white);
+}
