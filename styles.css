@@ -234,3 +234,49 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* =========================================
+   HU-04: Sección Resultado
+   ========================================= */
+.result-section {
+    background-color: #000000;
+    padding: 60px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-card {
+    background-color: #2835F2;
+    border-radius: 16px;
+    padding: 50px 40px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-title {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.result-description {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
