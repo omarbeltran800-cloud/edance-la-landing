@@ -160,3 +160,77 @@ body {
     text-align: justify; 
     margin: 0;
 }
+/* =========================================
+   HU-03: Sección "NUESTRA SOLUCIÓN"
+   ========================================= */
+.solution-section {
+    background-color: #000000;
+    padding: 80px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution-main-title {
+    color: #2835F2;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+
+.pillars-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.pillar-card {
+    background-color: #2835F2;
+    border-radius: 16px;
+    padding: 40px 30px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pillar-title {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.pillar-description {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
+
+.mockups-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
