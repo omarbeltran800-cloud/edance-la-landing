@@ -120,3 +120,43 @@ body {
     height: 24px;
     stroke: var(--text-white);
 }
+/* =========================================
+   HU-02: Sección "EL RETO"
+   ========================================= */
+.reto-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.reto-card {
+    background-color: #2835F2; 
+    padding: 50px 60px; 
+    max-width: 700px; 
+    box-sizing: border-box;
+}
+
+.reto-title {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900; 
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.reto-description {
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400; 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 0;
+}
